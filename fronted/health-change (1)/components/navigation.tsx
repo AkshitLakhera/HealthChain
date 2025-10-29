@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import WalletConnect from "./wallet-connect"
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui"
 
 interface NavigationProps {
   isConnected: boolean

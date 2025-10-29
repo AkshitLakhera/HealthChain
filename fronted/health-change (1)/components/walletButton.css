@@ -1,0 +1,27 @@
+.wallet-adapter-button.wallet-custom-button {
+    background-color: #000000;
+    color: white !important;
+    font-size: 0.7rem !important; /* smaller text */
+    font-weight: 600;
+    border-radius: 9999px; /* fully rounded (pill shape) */
+    padding: 0.2rem 0.7rem; /* less height and width */
+    height: auto;
+    transition: all 0.3s ease;
+    line-height: 0.9rem; /* keeps it compact */
+  }
+  
+  .wallet-adapter-button.wallet-custom-button:hover {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    transform: scale(1.05);
+  }
+  
+  .wallet-adapter-button.wallet-custom-button svg {
+    display: none; /* hides default Solana logo */
+  }
+  
+  .wallet-adapter-button-trigger {
+    background-color: #000000 !important;
+    border-radius: 9999px !important;
+    padding: 0.25rem 0.9rem !important;
+  }
+  
